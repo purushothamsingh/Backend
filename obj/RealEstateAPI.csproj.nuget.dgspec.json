@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\RealEstateAPI.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\RealEstateAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\RealEstateAPI.csproj": {
+    "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\RealEstateAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\RealEstateAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\RealEstateAPI.csproj",
         "projectName": "RealEstateAPI",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\RealEstateAPI.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\RealEstateAPI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

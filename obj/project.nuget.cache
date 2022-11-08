@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ywPQd/z/4S7eIds5xikc1DCw0+f0jCvT7WXKhkddtnASe2hgHgpQyoOFnUYCyja7gj8HHILSbo1psf7ikQEilg==",
+  "dgSpecHash": "Yr0OHhrILBhpSQgHlfQQ4heJuN4OSc4LAiUuw/ONVDUkXJOVACUiaDSqLd0VFaBQECq7KocgkBdGCX0n+kCy6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\RealEstate\\RealEstateUI\\BackEnd\\RealEstateAPI\\RealEstateAPI.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\APIBackend\\Backend\\RealEstateAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
