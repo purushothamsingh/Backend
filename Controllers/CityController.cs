@@ -17,7 +17,7 @@ namespace RealEstateAPI.Controllers
         private readonly ICityRepository repo;
         private readonly IMapper mapper;
         public CityController(ICityRepository _repo, IMapper _mapper)
-        {            
+        {
             repo = _repo;
             mapper = _mapper;
         }
@@ -27,7 +27,7 @@ namespace RealEstateAPI.Controllers
         public async Task<IActionResult> GetCities()
         {
             var cities = await repo.GetCitiesAsync();
-            var citiesDto = mapper.Map<IEnumerable<CityDto>>(cities);            
+            var citiesDto = mapper.Map<IEnumerable<CityDto>>(cities);
             return Ok(citiesDto);
         }
 
@@ -37,16 +37,31 @@ namespace RealEstateAPI.Controllers
         {
             var city = mapper.Map<City>(cityDto);
             city.LastUpdatedBy = 1;
-            city.LastUpdatedOn = DateTime.Now;        
-            repo.AddCity(city);            
+            city.LastUpdatedOn = DateTime.Now;
+            repo.AddCity(city);
             return StatusCode(201);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCity(int id)
         {
-            repo.DeleteCity(id);                        
+            repo.DeleteCity(id);
             return Ok(id);
         }
+
+        [HttpPut("{id}")]
+
+        public async Task<IActionResult> UpdateCity(int id,CityDto citydto)
+        {
+            int flag = repo.UpdateCity(id,citydto);
+            if(flag == 1)
+            {
+                return Ok();
+            }
+            return BadRequest("Update not allowed");
+            
+
+        }
+
     }
 }
