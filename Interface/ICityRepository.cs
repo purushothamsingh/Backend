@@ -11,9 +11,5 @@ namespace RealEstateAPI.Interface
         int UpdateCity(int id,CityDto citydto);
         //Task<City> FindCity(int id);
 
-        
-        
-
-
     }
 }

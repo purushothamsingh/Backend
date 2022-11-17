@@ -40,7 +40,7 @@ namespace RealEstateAPI.Data.Repository
 
         public int UpdateCity(int id, CityDto citydto)
         {
-            
+         
 
             var city = db.Cities.Find(id);
 
@@ -50,7 +50,7 @@ namespace RealEstateAPI.Data.Repository
                 city.LastUpdatedOn = DateTime.Now;
                 mapper.Map(citydto, city);
                 db.SaveChanges();
-                return 1;
+                return 1;   
             }
             return 0;
 
